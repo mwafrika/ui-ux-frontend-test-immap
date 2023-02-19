@@ -54,7 +54,7 @@
 .jobHeader {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   /* height: 100%; */
@@ -63,25 +63,131 @@
 
 .applicants {
   background-color: #be2126;
-  width: 140px;
-  height: 90px;
+  width: 105px;
+  height: 76px;
   gap: 10px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
+  padding: 10px;
   align-items: center;
   flex-direction: column;
   font-size: 20px;
+  margin-right: 20px;
 }
 
 .jobTitle {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .jobTitle h1 {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.actions {
+  display: flex;
+  gap: 21px;
+}
+
+.more_actions {
+  border: solid 1px #be2126;
+  border-radius: 10px;
+  padding: 3px 10px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+.more_actions h3 {
+  color: #be2126;
+  font-size: 16px;
+  text-align: center;
+}
+
+.headerDetails {
+  display: flex;
+  margin-left: 17px;
+  column-gap: 30px;
+}
+
+.country {
+  color: #3821c2;
+  background-color: rgba(56, 33, 194, 0.17);
+  border-radius: 15px;
+  padding: 3px 30px;
+}
+
+.city {
+  color: #3821c2;
+  background-color: rgba(56, 33, 194, 0.17);
+  border-radius: 15px;
+  padding: 3px 20px;
+}
+.type {
+  color: #3821c2;
+  background-color: rgba(56, 33, 194, 0.17);
+  border-radius: 15px;
+  padding: 3px 35px;
+}
+
+.status {
+  color: #3821c2;
+  background-color: rgba(56, 33, 194, 0.17);
+  border-radius: 15px;
+  padding: 3px 35px;
+}
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0;
+  width: 100%;
+}
+
+.headerBody {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  margin-left: 14%;
+  column-gap: 8px;
+  /* width: 72%; */
+  padding-top: 2%;
+}
+
+.jobFooter {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  width: 72%;
+  /* padding-top: 3%; */
+  display: flex;
+}
+
+.jobFooter h3 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #be2126;
+  background-color: #ffe4e5;
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+
+.jobCardContainer h3 span {
+  margin-left: 30px;
+}
+.headerBody h3 {
+  font-weight: bold;
+  font-size: 16px;
   line-height: 24px;
   color: #333333;
 }

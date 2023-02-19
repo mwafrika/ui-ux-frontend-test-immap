@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    jobTitle: "Frontend UI/UX",
+    jobTitle: "FRONTEND UI/UX",
     country: "USA",
     city: "New York",
     Type: "Full Time",
@@ -16,7 +16,7 @@ export default [
   },
   {
     id: 2,
-    jobTitle: "Frontend UI/UX",
+    jobTitle: "FRONTEND UI/UX",
     country: "D.R.Congo",
     city: "Kinshasa",
     Type: "Full Time",
@@ -31,7 +31,7 @@ export default [
   },
   {
     id: 3,
-    jobTitle: "Backend Developer",
+    jobTitle: "BACKEND DEVELOPER",
     country: "Afghanistan",
     city: "Kabul",
     Type: "Part-time",
