@@ -6,7 +6,6 @@
   margin-right: 50px;
   margin-left: 50px;
   width: 90%;
-  /* height: 258px; */
   padding: 2rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -194,4 +193,24 @@
 
 .custom_style {
   color: #be2126;
+}
+
+.actions_container {
+  width: "42.5px";
+  height: "42.5px";
+  background-color: "black";
+  border-radius: "10px";
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+}
+
+.button_container {
+  width: "42.5px";
+  height: "42.5px";
+  background-color: "rgb(190, 33, 38)";
+  border-radius: "10px";
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
 }
