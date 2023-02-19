@@ -133,15 +133,15 @@
   padding: 3px 20px;
 }
 .type {
-  color: #3821c2;
-  background-color: rgba(56, 33, 194, 0.17);
+  color: #008e81;
+  background-color: #c1e4e2;
   border-radius: 15px;
   padding: 3px 35px;
 }
 
 .status {
-  color: #3821c2;
-  background-color: rgba(56, 33, 194, 0.17);
+  color: #333333;
+  background-color: #e5e0e0;
   border-radius: 15px;
   padding: 3px 35px;
 }
