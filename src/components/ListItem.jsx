@@ -91,8 +91,9 @@ const ListItem = ({ buttonText, onButtonClick, ...rest }) => {
         </h3>
         <h3>
           To <span className={styles.custom_style}>{rest.Closing_date}</span>
-        </h3>{" "}
-        |<h3>Organization</h3>
+        </h3>
+        {" | "}
+        <h3>Organization</h3>
         <h3>
           <span className={styles.custom_style}>{rest.Organization}</span>
         </h3>{" "}
