@@ -86,13 +86,22 @@ const ListItem = ({ buttonText, onButtonClick, ...rest }) => {
         </div>
       </div>
       <div className={styles.headerBody}>
-        <h3>From {rest.Opening_date}</h3>
-        <h3>To {rest.Closing_date}</h3> |<h3>Organization</h3>
-        <h3>{rest.Organization}</h3> |<h3>Languages</h3>
-        <h3>Langaguages</h3>
-        <h3>{rest.Languages}</h3>
-        <h3>Duty station</h3>
-        <h3>{rest.Duty_station}</h3>
+        <h3>
+          From <span className={styles.custom_style}>{rest.Opening_date}</span>
+        </h3>
+        <h3>
+          To <span className={styles.custom_style}>{rest.Closing_date}</span>
+        </h3>{" "}
+        |<h3>Organization</h3>
+        <h3>
+          <span className={styles.custom_style}>{rest.Organization}</span>
+        </h3>{" "}
+        |<h3>Languages</h3>
+        <h3>
+          <span className={styles.custom_style}>
+            {rest.Languages.join(",  ")}
+          </span>
+        </h3>
       </div>
 
       <div className={styles.jobFooter}>
