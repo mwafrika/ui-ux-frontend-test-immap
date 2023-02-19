@@ -11,7 +11,10 @@ const ListItem = ({ buttonText, onButtonClick, ...rest }) => {
           <div>Applicants</div>
         </div>
         <div className={styles.jobTitle}>
-          
+          <h1>{rest.jobTitle}</h1>
+          <div className={styles.actions}>
+            
+          </div>
         </div>
         <div className={styles.jobType}>{rest.Type}</div>
       </div>

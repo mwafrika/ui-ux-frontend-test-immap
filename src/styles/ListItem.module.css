@@ -63,8 +63,9 @@
 
 .applicants {
   background-color: #be2126;
-  width: 105px;
-  height: 76px;
+  width: 140px;
+  height: 90px;
+  gap: 10px;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -80,7 +81,7 @@
 }
 .jobTitle h1 {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   color: #333333;
 }
