@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 import styles from "../styles/ListItem.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import DropdownMenu from "./DropdownMenu";
 import {
   faTrash,
   faPencil,
@@ -37,7 +37,17 @@ const ListItem = ({ buttonText, onButtonClick, ...rest }) => {
               <h1>{jobTitle}</h1>
             </div>
             <div className={styles.actions}>
-              <div className={styles.actions_container}>
+              <div
+                style={{
+                  width: "42.5px",
+                  height: "42.5px",
+                  backgroundColor: "rgb(190, 33, 38)",
+                  borderRadius: "10px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
                 <FontAwesomeIcon
                   icon={faPencil}
                   style={{
@@ -46,7 +56,17 @@ const ListItem = ({ buttonText, onButtonClick, ...rest }) => {
                   }}
                 />
               </div>
-              <div className={styles.button_container}>
+              <div
+                style={{
+                  width: "42.5px",
+                  height: "42.5px",
+                  backgroundColor: "black",
+                  borderRadius: "10px",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
                 <FontAwesomeIcon
                   icon={faTrash}
                   style={{
@@ -55,17 +75,7 @@ const ListItem = ({ buttonText, onButtonClick, ...rest }) => {
                   }}
                 />
               </div>
-              <div className={styles.more_actions}>
-                <h3>MORE ACTIONS</h3>
-                <FontAwesomeIcon
-                  icon={faSortDown}
-                  style={{
-                    color: "rgb(190, 33, 38)",
-                    fontSize: "1.5rem",
-                    marginBottom: "8px",
-                  }}
-                />
-              </div>
+              <DropdownMenu />
             </div>
           </div>
           <div className={styles.headerDetails}>

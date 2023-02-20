@@ -15,41 +15,6 @@
   border-radius: 10px;
 }
 
-.jobListItem:hover {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  transform: translateY(-5px);
-}
-
-.jobListItem > h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-
-.jobListItem > p {
-  font-size: 1rem;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.jobListItem > a {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #000;
-  text-decoration: none;
-  margin-bottom: 10px;
-}
-
-.jobListItem > a:hover {
-  color: #000;
-  text-decoration: underline;
-}
-
-.jobListItem > a:active {
-  color: #000;
-  text-decoration: underline;
-}
-
 .jobHeader {
   display: flex;
   flex-direction: row;
@@ -105,6 +70,7 @@
   justify-content: center;
   align-items: center;
   gap: 13px;
+  background-color: #fffafa;
 }
 .more_actions h3 {
   color: #be2126;
@@ -180,7 +146,6 @@
   padding: 5px 20px;
   border-radius: 15px;
 }
-
 .jobCardContainer h3 span {
   margin-left: 30px;
 }
@@ -205,12 +170,82 @@
   align-items: "center";
 }
 
-.button_container {
-  width: "42.5px";
-  height: "42.5px";
+.button_container,
+.actions_container {
   background-color: "rgb(190, 33, 38)";
-  border-radius: "10px";
-  display: "flex";
-  justify-content: "center";
-  align-items: "center";
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown .dropdown_menu {
+  position: "absolute";
+  top: "100%";
+  background-color: #ffe4e5;
+  left: 0;
+  z-index: 1;
+  list-style: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.dropdown_menu a {
+  text-decoration: none;
+  display: block;
+}
+
+.interview {
+  border: 1px solid #0080b7;
+  color: #0080b7;
+}
+.interview img,
+.interview a {
+  color: #0080b7;
+}
+
+.applicant {
+  color: #2d9cdb;
+  border: 1px solid #2d9cdb;
+}
+.applicant a {
+  color: #2d9cdb;
+}
+
+.recommandation {
+  color: #219653;
+  border: 1px solid #219653;
+}
+
+.recommandation a {
+  color: #219653;
+}
+.vacancy {
+  color: #ff9396;
+  border: 1px solid #ff9396;
+}
+
+.vacancy a {
+  color: #ff9396;
+}
+
+.contract {
+  color: #4a9f91;
+  border: 1px solid #4a9f91;
+}
+.contract a {
+  color: #4a9f91;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  flex-direction: row;
+  padding: 2px 16px;
+  border-radius: 20px;
+  margin: 10px auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
 }

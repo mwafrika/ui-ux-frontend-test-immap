@@ -1,5 +1,8 @@
 # ui-ux-frontend-test-immap
 
+This is a test project for the UI/UX and Frontend developer position at IMMAP that is intended to test the candidate's ability to create a figma design and implement it using React.js.
+
+# Links to the project.
 
 [Live demo](https://uiuix-test-immap.netlify.app)
 

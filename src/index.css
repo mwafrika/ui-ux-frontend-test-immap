@@ -4,3 +4,10 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.dropdown_menu {
+  position: "absolute";
+  top: "100%";
+  left: 0;
+  z-index: 1;
+}
